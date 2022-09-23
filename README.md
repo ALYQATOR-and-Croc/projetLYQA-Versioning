@@ -10,9 +10,3 @@
 
 Ajouter quelques features à un site vitrine (copie d'Amazon).
 
-## Features :
-
--
--
--
--
