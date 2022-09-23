@@ -226,7 +226,7 @@ header {
 }
 
 #nav-main .nav-a:hover {
-  border: 1px solid #4f5965;
+  border: 2px solid #f08804;
   border-radius: 3px;
   box-shadow: 0 1px 0 0 rgba(255,255,255,.5);
 }
@@ -260,12 +260,13 @@ header {
 }
 
 #nav-main .nav-fill a {
-  font-weight: 500;
+  font-weight: bold;
   color: #ccc;
 }
 
 #nav-main .nav-fill a:hover {
   text-decoration: underline;
+  text-decoration-color: #f08804;
 }
 
 #nav-main .nav-right {
