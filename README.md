@@ -8,7 +8,7 @@
 
 ## But du projet :
 
-Ajouter quelques features à un site vitrine Amazon.
+Ajouter quelques features à un site vitrine (copie d'Amazon).
 
 ## Features :
 
