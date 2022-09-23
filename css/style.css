@@ -444,6 +444,18 @@ h3 {
   color: #555;
 }
 
+.container-img-bf {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+.img-bf {
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto;
+}
+
 footer a {
   color: #fff;
 }
