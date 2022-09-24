@@ -10,7 +10,17 @@
 
 Ajouter quelques features à un site vitrine (copie d'Amazon).
 
+## Fonctionnement du site
+
+
+
 ## Démarche
+### Prise d'informations
+- Lecture du sujet
+- Lecture des articles :
+>> [A Beginner’s Guide to Git] (https://www.freecodecamp.org/news/a-beginners-guide-to-git-what-is-a-changelog-and-how-to-generate-it/)
+>> [Conventional commits : Détails & examples pratiques] https://les-enovateurs.com/conventional-commits-details-exemples-pratiques
+>> [Conventional Commits, a specification for adding human and machine readable meaning to commit messages] https://www.conventionalcommits.org/en/v1.0.0-beta.4/
 ### Installation du workflow et prise en main du GitHub
 - Création du repo sur le GitHub de Luigi
 - Recherche du template
