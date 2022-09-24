@@ -37,9 +37,4 @@ Ajouter quelques features à un site vitrine (copie d'Amazon).
 ## Outils
 
 
-![alt text](http://url/to/img.png)
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
-
-
-
-*nb: le README.md a été commit en même temps que nous avancions sur la documentation.* 
+***nb: le README.md a été commit en même temps que nous avancions sur la documentation.***
