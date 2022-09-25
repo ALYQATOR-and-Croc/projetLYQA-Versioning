@@ -32,7 +32,7 @@ Ajouter quelques features à un site vitrine (copie d'Amazon).
 - Mise en place de l'onglet General en 4 colonnes **Todo**, **In Progress**, **To Merge** et **Done** pour le suivi des actions de chacun.
 
 ### Répartition des tâches et création des branches
-- Récupération d'une copie locale du repo pour chaque membre de l'équipe avec ***git clone***
+- Récupération d'une copie locale du repo pour chaque membre de l'équipe avec ***git clone*** et le lien **SSH**.
 - Lecture du code et division du travail entre changement du style dans le css pour Luigi, création d'une nouvelle page pour Quentin, traduction de la page pou Yoann et changement d'images et génération d'une bannière promotionnelle pour Arthur.
 - A l'aide de la commande ***git checkout -b #nom_de_la_nouvelle_branche***, création de nouvelles branches. Cette commande en particulier permet de créer une nouvelle branche à partir de la branche dans laquelle la commande a été effectuée.
 - Création d'une branche de développement **develop**, de trois branches de travail, une pour la nouvelle page **dev_new_page**, une pour traiter css **dev_stylesheet** et une pour la traduction et la modification des médias **dev_mainpage**.
@@ -67,7 +67,10 @@ Ajouter quelques features à un site vitrine (copie d'Amazon).
 ## Outils
 > *Pour toute information la première référence est la documentation de git que l'on peut ouvrir avec la commande ***git #commande spécifique# --help***.*  
 > *Les autres informations viennent principalement de [stack overflow] (https://stackoverflow.com)*
-
-
-
-***nb: le README.md a reçu des commits en même temps que nous avancions sur la documentation.***
+  
+  
+  
+> ***nb:  ***  
+> ***le README.md a reçu des commits en même temps que nous avancions sur la documentation.***  
+> ***Les dernières modifications du README.md et des dossiers n'ont pas été enregistrées dans le CHANGELOG.md***  
+> ***Les images correspondant aux commandes sont disponible dans le rapport en version pdf***
