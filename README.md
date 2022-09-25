@@ -61,9 +61,13 @@ Ajouter quelques features à un site vitrine (copie d'Amazon).
 - Dans la page main création du fichier CHANGELOG.md avec la commande ***autochangelog -l 100***  
 > *La commande ***autochangelog*** ne retrace que les trois derniers commit, il faut ajouter le ***-l #nombre de log#*** pour en obtenir plus. pour plus d'informations voir la documentation sur [NPM - auto-changelog] (https://www.npmjs.com/package/auto-changelog/)*
 
+### Remarques
+- Les branches n'ont pas été supprimée pour conserver la structure lors de la correction.
+- La branche **develop** n'a pas été merge une dernière fois avec la branche **main** car celle-ci a fait l'objet de la même modification. La première en test, la seconde en condition réelle.
 ## Outils
 > *Pour toute information la première référence est la documentation de git que l'on peut ouvrir avec la commande ***git #commande spécifique# --help***.*  
 > *Les autres informations viennent principalement de [stack overflow] (https://stackoverflow.com)*
+
 
 
 ***nb: le README.md a reçu des commits en même temps que nous avancions sur la documentation.***
