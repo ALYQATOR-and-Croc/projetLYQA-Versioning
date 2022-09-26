@@ -109,14 +109,43 @@ echo "#texte" >> README.md
 rm -rf .git/
 ```  
 ```bash
-git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all 
+git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+```  
+```bash
+* 693e3a6 - (3 days ago) mergin - arthur-herve (HEAD -> main)
+* 88b64f2 - (4 days ago) ^Z^Z^Z² - arthur-herve (origin/main, feature-2)
+* 9016979 - (4 days ago) .gitignore added - arthur-herve
+* 9c010a9 - (4 days ago) "deleted created text.txt file" - arthur-herve
+* 578575b - (4 days ago) commit message - arthur-herve
+* fa064ed - (4 days ago)  src refspec main does not match any - arthur-herve
+* 315680a - (4 days ago) modified README.md - arthur-herve
+* 234000b - (4 days ago) Create README.md - arthur-herve
+*   58fb377 - (4 days ago) Merge branch 'main' of github.com:arthur-herve/projetGroupeVersioning - arthur-herve
+|\
+| * e57d62f - (7 days ago) Initial commit - arthur-herve
+* f7c863d - (7 days ago) first commit - arthur-herve
+```  
+```bash
+git log --pretty=oneline
+693e3a64a9f7878c0a1ef5ef5b4c0a1b4ca6f063 (HEAD -> main) mergin
+88b64f213bf908fb51c947a3d4a6f8c12d914e3d (origin/main, feature-2) ^Z^Z^Z²
+9016979e33ad295f2d1388c73d1d09e19adce41a .gitignore added
+9c010a93916be99b43abfce888d0da02ec856da3 "deleted created text.txt file"
+578575b04f4c331cc5d32a981cae367aeb000631 commit message
+fa064ed2ce5d187c138c6ac93949a5d7e429031c  src refspec main does not match any
+315680aa6f1f38bf11a870a46ccfd2cd1470a988 modified README.md
+234000be2eede7f87e14da99c43530219284c2dd Create README.md
+58fb377725caf3e4d499b8f19dc7a3c4727bfc1b Merge branch 'main' of github.com:arthur-herve/projetGroupeVersioning
+f7c863d8681713e04a7e5109dcb1ac153667309f first commit
+e57d62f58b21a9be3b0a77dc0ef777ed4142ce34 Initial commit
+
 ```  
   
 
 
 > Documentation :  
 > [Documentation Git en anglais - site officiel] (https://git-scm.com/docs/git)  
->> *Cette documentation est accessible grâce à la commande ***git --help***.*
+>> *Cette documentation est accessible pour chaque commande grâce à la commande ***git #nom_de_la_commande# --help***.*
 > [Documentation Git en français] (https://www.hostinger.fr/tutoriels/commandes-git#Git_config)
 #### Remarques
 
