@@ -3,13 +3,13 @@
 **Le rapport de groupe est de son côté rendu le 25 septembre**
 ## Rapide présentation de GitHub
 
-##Les commandes
+## Les commandes
 Pour connaître les commandes Git les plus communes il suffit d'écrire dans le shell :  
 ```
 git --help
 ```  
 Sur GitBash cela donne :  
-```
+```bash
 $ git --help
 usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
            [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]    
@@ -58,7 +58,65 @@ to read about a specific subcommand or concept.
 See 'git help git' for an overview of the system.
 ```  
   
-Nous allons voir seulement les commandes que j'ai pu utiliser en cours.
+Nous allons voir seulement les commandes que j'ai pu utiliser en cours.  
+  
+```bash
+git init
+```  
+```bash
+git status
+```  
+```bash
+git pull
+```  
+```bash
+git commit
+```  
+```bash
+git commit -m ""
+```  
+```bash
+git fetch
+```  
+```bash
+git push
+```  
+```bash
+git clone
+```  
+```bash
+git add
+```  
+```bash
+git branch
+```  
+```bash
+git diff
+```  
+```bash
+git remote
+```  
+```bash
+git push -u origin main
+```  
+```bash
+git 
+```  
+```bash
+echo "#texte" >> README.md
+```  
+```bash
+rm -rf .git/
+```  
+```bash
+git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all 
+```  
+  
 
+
+> Documentation :  
+> [Documentation Git en anglais - site officiel] (https://git-scm.com/docs/git)  
+>> *Cette documentation est accessible grâce à la commande ***git --help***.*
+> [Documentation Git en français] (https://www.hostinger.fr/tutoriels/commandes-git#Git_config)
 #### Remarques
 
