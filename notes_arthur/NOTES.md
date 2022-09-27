@@ -15,9 +15,12 @@ Il y a trois étapes pour un changement :
 - Indexé (staged), le changement est "retenu" sans être pour autant inclu dans un instantanné à envoyer à un dépôt distant.
 - Validé (commited), le changement est stocké accompagné d'un message de manière sécurisée en instantané dans le dépôt local.  
 On peut le voir dans l'image suivante :  
-![changements2](https://github.com/LYQA-Corporation/projetLYQA-Versioning/blob/main/notes_arthur/images/changements2.png)  
+![changements2](https://github.com/LYQA-Corporation/projetLYQA-Versioning/blob/main/notes_arthur/images/changements2.png) 
+***  
+   
 A sa création un fichier à une étape supplémentaire, il est non-tracé. Une fois qu'il a été ajouté à l'index les modification suivent la logique précédemment montrée. L'image suivante montre les étapes de la vie d'un fichier dans un dépôt git :  
 ![changements1](https://github.com/LYQA-Corporation/projetLYQA-Versioning/blob/main/notes_arthur/images/changements1.png)  
+***
   
 Pour mieux travailler en équipe, les tâches sont divisées et réparties en branche. Chaque développeur peut ainsi modifier le code de sa branche sans impacter le code d'origine ou le travail du reste de son équipe. A terme les branche sont vouées à disparaître une fois qu'elle a été fusionnée avec sa branche maîtresse. Le schéma ci-dessous représente cette démarche, il est possible de suivre l'évolution des branches de ce dépôt avec [ce lien] (https://github.com/LYQA-Corporation/projetLYQA-Versioning/network).  
   
