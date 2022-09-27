@@ -11,6 +11,8 @@ GitHub est une plateforme en ligne de développement collaboratif qui suppléé 
 
 ## Le suivi de changements dans le dépôt local
 ![branches](https://github.com/LYQA-Corporation/projetLYQA-Versioning/blob/main/notes_arthur/images/branches.png)
+![changements1](https://github.com/LYQA-Corporation/projetLYQA-Versioning/blob/main/notes_arthur/images/changements1.png)
+![changements2](https://github.com/LYQA-Corporation/projetLYQA-Versioning/blob/main/notes_arthur/images/changements2.png)
 ## Les commandes
 Pour connaître les commandes Git les plus communes il suffit d'écrire dans le shell :  
 ```
