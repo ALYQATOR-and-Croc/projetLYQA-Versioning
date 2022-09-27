@@ -9,22 +9,7 @@ Autre avantage déterminant de Git est le stockage du code. Celui-ci est de base
   
 GitHub est une plateforme en ligne de développement collaboratif qui suppléé Git. GitHub Rajoute un cloud sur lequel laisser le repo en plus du peer to peer de Git., accessible à des développeurs désignés. Elle est aussi utilisée comme plateforme de documentation avec sa visualisation des MarkDown et la création d'un Wiki. Le site propose gratuitement un workflow avec un suivi de projet, des issues, des insights. 
 
-## Création d'un reposite sur GitHub
-Pour créer un repo en 
-```bash
-echo "# test" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/arthur-herve/test.git
-git push -u origin main
-```
-```bash
-git remote add origin https://github.com/arthur-herve/test.git
-git branch -M main
-git push -u origin main
-```
+## Le suivi de changements dans le dépôt local
 
 ## Les commandes
 Pour connaître les commandes Git les plus communes il suffit d'écrire dans le shell :  
@@ -81,7 +66,7 @@ to read about a specific subcommand or concept.
 See 'git help git' for an overview of the system.
 ```  
   
-Nous allons voir seulement les commandes que j'ai pu utiliser en cours.  
+Nous allons voir seulement les commandes que j'ai pu utiliser en cours :    
   
 ```bash
 git init
@@ -194,8 +179,24 @@ f7c863d8681713e04a7e5109dcb1ac153667309f first commit
 e57d62f58b21a9be3b0a77dc0ef777ed4142ce34 Initial commit
 
 ```  
-  
-
+## Création d'un reposite sur GitHub
+Après avoir terminé la création du dépôt distant en suivant les formulaires de GitHub, il est conseillé par le site de réaliser les commandes suivantes en local sur Git Bash:  
+```bash
+echo "# test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/arthur-herve/test.git
+git push -u origin main
+``` 
+Cela créé un fichier markdown avec écrit un texte dedans, initialise le dépôt git en local le dépôt, ajoute à l'index la création du markdown, fait un premier commit, force à renommer une branche en *main*, récupère en https le lien vers le dépôt distant sous le nom d'*origin*, envoie les changements à la branche *main* du dépôt distant identifié par *origin* tout en demandant un suivi de la branche *main* distante. 
+```bash
+git remote add origin https://github.com/arthur-herve/test.git
+git branch -M main
+git push -u origin main
+```
+Reprend les trois dernières étapes des commandes précédentes en commençant par la connexion pour renommer après coup la branche *master* en branche *main*.
 
 > Documentation :  
 > [Documentation Git en anglais - site officiel] (https://git-scm.com/docs/git)  
