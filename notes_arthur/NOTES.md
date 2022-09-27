@@ -5,11 +5,26 @@
 
 ## Rapide présentation de Git et de GitHub
 Git permet d'avoir une traçabilité d'un projet. Chaque modification peut faire l'objet d'un **commit**. Le commit est une étape dans l'évolution du projet, on peut revenir à une étape, une copie antérieur grâce à l'ID associé à chaque commit. S'il y a un problème le développeur peut revenir à une version fonctionnelle. Dans un projet collaboratif cela permet de conserver la version de chaque développeur et de les fusionner sans perdre les améliorations de chacun. S'il y a un problème des outils permettent de régler les conflits, VS Code en propose un par exemple.  
-Autre avantage déterminant de Git. est le stockage du code. Celui-ci est de base en peer to peer, chaque membre du projet possède une copie.
-
+Autre avantage déterminant de Git est le stockage du code. Celui-ci est de base en peer to peer, chaque membre du projet possède une copie. La multiplicité des stockages protège des défaillances isolées.  
   
-GitHub est une plateforme en ligne de développement collaboratif. Elle est aussi utilisée comme plateforme de documentation avec sa visualisation des MarkDown et la création d'un Wiki. Le site propose gratuitement un workflow avec un suivi de projet, des issues, des insights. 
-GitHub Rajoute un cloud sur lequel laisser le repo en plus du peer to peer de Git.
+GitHub est une plateforme en ligne de développement collaboratif qui suppléé Git. GitHub Rajoute un cloud sur lequel laisser le repo en plus du peer to peer de Git., accessible à des développeurs désignés. Elle est aussi utilisée comme plateforme de documentation avec sa visualisation des MarkDown et la création d'un Wiki. Le site propose gratuitement un workflow avec un suivi de projet, des issues, des insights. 
+
+## Création d'un reposite sur GitHub
+Pour créer un repo en 
+```bash
+echo "# test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/arthur-herve/test.git
+git push -u origin main
+```
+```bash
+git remote add origin https://github.com/arthur-herve/test.git
+git branch -M main
+git push -u origin main
+```
 
 ## Les commandes
 Pour connaître les commandes Git les plus communes il suffit d'écrire dans le shell :  
@@ -71,51 +86,81 @@ Nous allons voir seulement les commandes que j'ai pu utiliser en cours.
 ```bash
 git init
 ```  
+Cette commande créé un nouveau dépôt Git. ou en réinitialise un.  
+  
 ```bash
 git status
 ```  
+Montre l'état actuel du dépôt Git. local.  
+  
 ```bash
 git pull
 ```  
+Récupère les évolutions du dépôt distant et les intègre au dpôt local.  
+  
 ```bash
 git commit
 ```  
+Créé une instance du dépôt local à partir des modifications enregistrées dans l'index. Le commit est toujours suivi d'un message.  
+  
 ```bash
 git commit -m ""
 ```  
+Créé un commit avec un message associé écrit à la suite.
+  
 ```bash
 git fetch
 ```  
+Récupère l'historique des évolutions du projet sans pour autant le merge.  
+  
 ```bash
 git push
 ```  
+Envoie les commits locaux dans le dépôt distant.
+  
 ```bash
 git clone
 ```  
+Récupère un autre dépôt ainsi que toutes ses évolutions dans un nouveau dossier.  
+  
 ```bash
 git add
 ```  
+Ajoute les récents changements dans l'index.  
+  
 ```bash
 git branch
 ```  
+Sert à gérer les branches, les créer, les lister ou les effacer. Il est possible de créer une branche avec ***git checkout***  
+  
 ```bash
 git diff
 ```  
+Sert à montrer les différents changements, très utile pour résoudre les conflits entre le dépôt distant et le dépôt local.  
+  
 ```bash
 git remote
 ```  
+Permet de gérer la connexion avec d'autres dépôts.  
+  
 ```bash
 git push -u origin main
 ```  
-```bash
-git 
-```  
+
 ```bash
 echo "#texte" >> README.md
 ```  
+Créé un fichier README.md dans lequel est écrit un texte.  
+  
 ```bash
 rm -rf .git/
 ```  
+Efface le dossier .git et toutes les données conservées en local. Le -r sert est pour recursive, cela permet d'effacer tout le contenu, le f permet de forcer la commande.  
+  
+```bash
+git log
+```  
+Montre les commits. La commande peut être agrémentée pour rendre plus lisible le résultat comme par exemple montrer l'évolution des branches:  
 ```bash
 git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
 ```  
@@ -133,6 +178,7 @@ git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(re
 | * e57d62f - (7 days ago) Initial commit - arthur-herve
 * f7c863d - (7 days ago) first commit - arthur-herve
 ```  
+Ou bien simplement mettre en ligne les commits :  
 ```bash
 git log --pretty=oneline
 693e3a64a9f7878c0a1ef5ef5b4c0a1b4ca6f063 (HEAD -> main) mergin
