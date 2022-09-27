@@ -10,9 +10,11 @@ Autre avantage déterminant de Git est le stockage du code. Celui-ci est de base
 GitHub est une plateforme en ligne de développement collaboratif qui suppléé Git. GitHub Rajoute un cloud sur lequel laisser le repo en plus du peer to peer de Git., accessible à des développeurs désignés. Elle est aussi utilisée comme plateforme de documentation avec sa visualisation des MarkDown et la création d'un Wiki. Le site propose gratuitement un workflow avec un suivi de projet, des issues, des insights. 
 
 ## Le suivi de changements dans le dépôt local
-![branches](https://github.com/LYQA-Corporation/projetLYQA-Versioning/blob/main/notes_arthur/images/branches.png)
+
 ![changements1](https://github.com/LYQA-Corporation/projetLYQA-Versioning/blob/main/notes_arthur/images/changements1.png)
 ![changements2](https://github.com/LYQA-Corporation/projetLYQA-Versioning/blob/main/notes_arthur/images/changements2.png)
+<div style="text-align:center"><img src="https://github.com/LYQA-Corporation/projetLYQA-Versioning/blob/main/notes_arthur/images/branches.png" /></div>.
+![branches](https://github.com/LYQA-Corporation/projetLYQA-Versioning/blob/main/notes_arthur/images/branches.png)
 ## Les commandes
 Pour connaître les commandes Git les plus communes il suffit d'écrire dans le shell :  
 ```
