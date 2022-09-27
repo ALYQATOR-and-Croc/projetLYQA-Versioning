@@ -190,7 +190,7 @@ git branch -M main
 git remote add origin https://github.com/arthur-herve/test.git
 git push -u origin main
 ``` 
-Cela créé un fichier markdown avec écrit un texte dedans, initialise le dépôt git en local le dépôt, ajoute à l'index la création du markdown, fait un premier commit, force à renommer une branche en *main*, récupère en https le lien vers le dépôt distant sous le nom d'*origin*, envoie les changements à la branche *main* du dépôt distant identifié par *origin* tout en demandant un suivi de la branche *main* distante. 
+Cela créé un fichier markdown contenant un texte, initialise le dépôt git en local, ajoute à l'index la création du markdown, fait un premier commit, force à renommer une branche en *main*, récupère en https le lien vers le dépôt distant sous le nom d'*origin*, envoie les changements à la branche *main* du dépôt distant identifié par *origin* tout en demandant un suivi de la branche *main* distante. 
 ```bash
 git remote add origin https://github.com/arthur-herve/test.git
 git branch -M main
@@ -198,9 +198,8 @@ git push -u origin main
 ```
 Reprend les trois dernières étapes des commandes précédentes en commençant par la connexion pour renommer après coup la branche *master* en branche *main*.
 
-> Documentation :  
-> [Documentation Git en anglais - site officiel] (https://git-scm.com/docs/git)  
->> *Cette documentation est accessible pour chaque commande grâce à la commande ***git #nom_de_la_commande# --help***.*  
-> [Documentation Git en français] (https://www.hostinger.fr/tutoriels/commandes-git#Git_config)
-#### Remarques
+## Documentation :  
+ [Documentation Git en anglais - site officiel] (https://git-scm.com/docs/git)  
+> *Cette documentation est accessible pour chaque commande grâce à la commande ***git #nom_de_la_commande# --help***.*  
+ [Documentation Git en français] (https://www.hostinger.fr/tutoriels/commandes-git#Git_config)
 
