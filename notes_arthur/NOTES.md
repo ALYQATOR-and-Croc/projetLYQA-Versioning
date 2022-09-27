@@ -1,7 +1,15 @@
 # Notes de cours et rapport - Arthur Hervé
-**Comme convenu par message Discord, mon rapport personnel sera remis plus tard dans la semaine du 26 septembre.**  
+**Comme convenu par message Discord, mon rapport personnel sera remis plus tard dans la semaine du 26 septembre. Le message sera retiré quand j'aurai terminé.**  
 **Le rapport de groupe est de son côté rendu le 25 septembre**
-## Rapide présentation de GitHub
+## Qu'est-ce que le versionning
+
+## Rapide présentation de Git et de GitHub
+Git permet d'avoir une traçabilité d'un projet. Chaque modification peut faire l'objet d'un **commit**. Le commit est une étape dans l'évolution du projet, on peut revenir à une étape, une copie antérieur grâce à l'ID associé à chaque commit. S'il y a un problème le développeur peut revenir à une version fonctionnelle. Dans un projet collaboratif cela permet de conserver la version de chaque développeur et de les fusionner sans perdre les améliorations de chacun. S'il y a un problème des outils permettent de régler les conflits, VS Code en propose un par exemple.  
+Autre avantage déterminant de Git. est le stockage du code. Celui-ci est de base en peer to peer, chaque membre du projet possède une copie.
+
+  
+GitHub est une plateforme en ligne de développement collaboratif. Elle est aussi utilisée comme plateforme de documentation avec sa visualisation des MarkDown et la création d'un Wiki. Le site propose gratuitement un workflow avec un suivi de projet, des issues, des insights. 
+GitHub Rajoute un cloud sur lequel laisser le repo en plus du peer to peer de Git.
 
 ## Les commandes
 Pour connaître les commandes Git les plus communes il suffit d'écrire dans le shell :  
@@ -145,7 +153,7 @@ e57d62f58b21a9be3b0a77dc0ef777ed4142ce34 Initial commit
 
 > Documentation :  
 > [Documentation Git en anglais - site officiel] (https://git-scm.com/docs/git)  
->> *Cette documentation est accessible pour chaque commande grâce à la commande ***git #nom_de_la_commande# --help***.*
+>> *Cette documentation est accessible pour chaque commande grâce à la commande ***git #nom_de_la_commande# --help***.*  
 > [Documentation Git en français] (https://www.hostinger.fr/tutoriels/commandes-git#Git_config)
 #### Remarques
 
