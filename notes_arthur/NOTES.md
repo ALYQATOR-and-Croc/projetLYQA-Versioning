@@ -10,7 +10,7 @@ Autre avantage déterminant de Git est le stockage du code. Celui-ci est de base
 GitHub est une plateforme en ligne de développement collaboratif qui suppléé Git. GitHub Rajoute un cloud sur lequel laisser le repo en plus du peer to peer de Git., accessible à des développeurs désignés. Elle est aussi utilisée comme plateforme de documentation avec sa visualisation des MarkDown et la création d'un Wiki. Le site propose gratuitement un workflow avec un suivi de projet, des issues, des insights. 
 
 ## Le suivi de changements dans le dépôt local
-![Image](.\images\branches.png)
+![branches](images\branches.png)
 ## Les commandes
 Pour connaître les commandes Git les plus communes il suffit d'écrire dans le shell :  
 ```
