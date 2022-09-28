@@ -214,5 +214,7 @@ Reprend les trois dernières étapes des commandes précédentes en commençant 
  [Documentation Git en anglais - site officiel] (https://git-scm.com/docs/git)  
 > *Cette documentation est accessible pour chaque commande grâce à la commande ***git #nom_de_la_commande# --help***.*  
  [Documentation Git en français] (https://www.hostinger.fr/tutoriels/commandes-git#Git_config)
+## Remarques
+**Les derniers commits ont été effectués directement sur le *main* car ils ne touchaient pas au reste du code. Les notes sont de toute manière destinées à être lues sur la branche principale.**
  
 
