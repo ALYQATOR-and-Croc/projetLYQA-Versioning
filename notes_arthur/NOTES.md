@@ -207,9 +207,12 @@ git push -u origin main
 ```
 Reprend les trois dernières étapes des commandes précédentes en commençant par la connexion pour renommer après coup la branche *master* en branche *main*.
 
+## Exemple d'utilisation de Git. et GitHub
+[Documentation du projet LYQA] (https://github.com/LYQA-Corporation/projetLYQA-Versioning)  
+*J'ai préféré mettre un lien vers notre démarche au lieu de simplement le copier coller, il me semble que cela est plus pertinent.*
 ## Documentation :  
  [Documentation Git en anglais - site officiel] (https://git-scm.com/docs/git)  
 > *Cette documentation est accessible pour chaque commande grâce à la commande ***git #nom_de_la_commande# --help***.*  
-
  [Documentation Git en français] (https://www.hostinger.fr/tutoriels/commandes-git#Git_config)
+ 
 
