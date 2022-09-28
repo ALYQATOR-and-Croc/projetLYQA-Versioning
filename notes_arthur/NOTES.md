@@ -1,13 +1,11 @@
-# Notes de cours et rapport - Arthur Hervé
-**Comme convenu par message Discord, mon rapport personnel sera remis plus tard dans la semaine du 26 septembre. Le message sera retiré quand j'aurai terminé.**  
-**Le rapport de groupe est de son côté rendu le 25 septembre**
+# Notes de cours et rapport - Arthur Hervé 
 ## Qu'est-ce que le versionning
 C'est la pratique de conserver des copies ou clones d'un même projet pour avancer en parallèle sur des tâches différentes. Ce travail est sécurisé par le traçage de chaque étape réalisée.
 ## Rapide présentation de Git et de GitHub
-Git permet d'avoir une traçabilité d'un projet. Chaque modification peut faire l'objet d'un **commit**. Le commit est une étape dans l'évolution du projet, on peut revenir à une étape, une copie antérieur grâce à l'ID associé à chaque commit. S'il y a un problème le développeur peut revenir à une version fonctionnelle. Dans un projet collaboratif cela permet de conserver la version de chaque développeur et de les fusionner sans perdre les améliorations de chacun. S'il y a un problème des outils permettent de régler les conflits, VS Code en propose un par exemple.  
+Git permet d'avoir une traçabilité d'un projet. Chaque modification peut faire l'objet d'un **commit**. Le commit est une étape dans l'évolution du projet, on peut revenir à une étape, une copie antérieur grâce à l'ID associé à chaque commit. S'il y a un problème, le développeur peut revenir à une version fonctionnelle. Dans un projet collaboratif, cela permet de conserver la version de chaque développeur et de les fusionner sans perdre les améliorations de chacun. S'il y a un problème, des outils permettent de régler les conflits, VS Code en propose un par exemple.  
 Autre avantage déterminant de Git est le stockage du code. Celui-ci est de base en peer to peer, chaque membre du projet possède une copie. La multiplicité des stockages protège des défaillances isolées.  
   
-GitHub est une plateforme en ligne de développement collaboratif qui suppléé Git. GitHub Rajoute un cloud sur lequel laisser le repo en plus du peer to peer de Git., accessible à des développeurs désignés. Elle est aussi utilisée comme plateforme de documentation avec sa visualisation des MarkDown et la création d'un Wiki. Le site propose gratuitement un workflow avec un suivi de projet, des issues, des insights. 
+GitHub est une plateforme en ligne de développement collaboratif qui suppléé Git. GitHub Rajoute un cloud sur lequel laisser le repo ou dépôt en plus du peer to peer de Git., accessible à des développeurs désignés. Elle est aussi utilisée comme plateforme de documentation avec sa visualisation des MarkDown et la création d'un Wiki. Le site propose gratuitement un workflow avec un suivi de projet, des issues, des insights. 
 
 ## Le suivi de changements dans le dépôt local
 Il y a trois étapes pour un changement :
@@ -22,12 +20,12 @@ A sa création un fichier à une étape supplémentaire, il est non-tracé. Une 
 ![changements1](https://github.com/LYQA-Corporation/projetLYQA-Versioning/blob/main/notes_arthur/images/changements1.png)  
 ***
   
-Pour mieux travailler en équipe, les tâches sont divisées et réparties en branche. Chaque développeur peut ainsi modifier le code de sa branche sans impacter le code d'origine ou le travail du reste de son équipe. A terme les branche sont vouées à disparaître une fois qu'elle a été fusionnée avec sa branche maîtresse. Le schéma ci-dessous représente cette démarche, il est possible de suivre l'évolution des branches de ce dépôt avec [ce lien] (https://github.com/LYQA-Corporation/projetLYQA-Versioning/network).  
+Pour mieux travailler en équipe, les tâches sont divisées et réparties en branche. Chaque développeur peut ainsi modifier le code de sa branche sans impacter le code d'origine ou le travail du reste de son équipe. À terme, les branche sont vouées à disparaître une fois qu'elle a été fusionnée avec sa branche maîtresse. Le schéma ci-dessous représente cette démarche, il est possible de suivre l'évolution des branches de ce dépôt avec [ce lien] (https://github.com/LYQA-Corporation/projetLYQA-Versioning/network).  
   
 ![branches](https://github.com/LYQA-Corporation/projetLYQA-Versioning/blob/main/notes_arthur/images/branches.png)
  
 ## Les commandes
-Pour connaître les commandes Git les plus communes il suffit d'écrire dans le shell :  
+Pour connaître les commandes Git les plus communes, il suffit d'écrire dans le shell :  
 ```
 git --help
 ```  
@@ -96,7 +94,7 @@ Montre l'état actuel du dépôt Git. local.
 ```bash
 git pull
 ```  
-Récupère les évolutions du dépôt distant et les intègre au dpôt local.  
+Récupère les évolutions du dépôt distant et les intègre au dépôt local.  
   
 ```bash
 git commit
