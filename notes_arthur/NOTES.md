@@ -139,12 +139,8 @@ Sert à montrer les différents changements, très utile pour résoudre les conf
 ```bash
 git remote
 ```  
-Permet de gérer la connexion avec d'autres dépôts.  
+Permet de gérer la connexion avec d'autres dépôts.   
   
-```bash
-git push -u origin main
-```  
-
 ```bash
 echo "#texte" >> README.md
 ```  
